@@ -2,12 +2,15 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>713</width>
-    <height>595</height>
+    <width>1009</width>
+    <height>605</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -24,8 +27,8 @@
   </property>
   <property name="maximumSize">
    <size>
-    <width>713</width>
-    <height>595</height>
+    <width>1400</width>
+    <height>795</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -33,6 +36,400 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="title">
+       <string>Сохранить в файл</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="add_conf">
+         <property name="text">
+          <string>Добавить устройство</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="group_device">
+      <property name="title">
+       <string>Устройство</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_frequency_core">
+         <property name="text">
+          <string>Частота тактирования ядра</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="box_number"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="box_series">
+         <item>
+          <property name="text">
+           <string>Akva</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>RNK</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>SVeI</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSpinBox" name="box_frequency_core">
+         <property name="maximum">
+          <number>9999</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_number">
+         <property name="text">
+          <string>Модель устройства</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_series">
+         <property name="text">
+          <string>Серия устройства</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QGroupBox" name="group_GPIO">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>1</horstretch>
+        <verstretch>1</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="title">
+       <string>Режим работы GPIO портов</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="5" column="0">
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents_2">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>-39</y>
+            <width>281</width>
+            <height>498</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="8" column="1">
+            <widget class="QComboBox" name="comboBox_R"/>
+           </item>
+           <item row="14" column="0">
+            <widget class="QComboBox" name="comboBox_3">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="12" column="1">
+            <widget class="QComboBox" name="comboBox_Z"/>
+           </item>
+           <item row="8" column="0">
+            <widget class="QComboBox" name="comboBox_Q">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="comboBox_B"/>
+           </item>
+           <item row="13" column="1">
+            <widget class="QComboBox" name="comboBox_2"/>
+           </item>
+           <item row="7" column="1">
+            <widget class="QComboBox" name="comboBox_P"/>
+           </item>
+           <item row="10" column="0">
+            <widget class="QComboBox" name="comboBox_U">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="10" column="1">
+            <widget class="QComboBox" name="comboBox_V"/>
+           </item>
+           <item row="11" column="1">
+            <widget class="QComboBox" name="comboBox_X"/>
+           </item>
+           <item row="7" column="0">
+            <widget class="QComboBox" name="comboBox_O">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="13" column="0">
+            <widget class="QComboBox" name="comboBox_1">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QComboBox" name="comboBox_K">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QComboBox" name="comboBox_G">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="15" column="0">
+            <widget class="QComboBox" name="comboBox_5">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>ouiput</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="11" column="0">
+            <widget class="QComboBox" name="comboBox_W">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="9" column="0">
+            <widget class="QComboBox" name="comboBox_S">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QComboBox" name="comboBox_C">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="12" column="0">
+            <widget class="QComboBox" name="comboBox_Y">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="14" column="1">
+            <widget class="QComboBox" name="comboBox_4"/>
+           </item>
+           <item row="2" column="1">
+            <widget class="QComboBox" name="comboBox_F"/>
+           </item>
+           <item row="6" column="0">
+            <widget class="QComboBox" name="comboBox_M">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QComboBox" name="comboBox_I">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QComboBox" name="comboBox_N"/>
+           </item>
+           <item row="9" column="1">
+            <widget class="QComboBox" name="comboBox_T"/>
+           </item>
+           <item row="15" column="1">
+            <widget class="QComboBox" name="comboBox_6"/>
+           </item>
+           <item row="3" column="1">
+            <widget class="QComboBox" name="comboBox_H"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QComboBox" name="comboBox_E">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="comboBox_D"/>
+           </item>
+           <item row="0" column="0">
+            <widget class="QComboBox" name="comboBox_A">
+             <item>
+              <property name="text">
+               <string>input</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>output</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QComboBox" name="comboBox_J"/>
+           </item>
+           <item row="5" column="1">
+            <widget class="QComboBox" name="comboBox_L"/>
+           </item>
+           <item row="16" column="0">
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
     <item row="1" column="0">
      <widget class="QGroupBox" name="group_interfaces">
       <property name="sizePolicy">
@@ -55,8 +452,8 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>319</width>
-            <height>355</height>
+            <width>296</width>
+            <height>365</height>
            </rect>
           </property>
           <layout class="QGridLayout" name="gridLayout_6">
@@ -227,224 +624,6 @@
       </layout>
      </widget>
     </item>
-    <item row="0" column="0">
-     <widget class="QGroupBox" name="group_device">
-      <property name="title">
-       <string>Устройство</string>
-      </property>
-      <layout class="QGridLayout" name="gridLayout_3">
-       <item row="2" column="0">
-        <widget class="QLabel" name="label_frequency_core">
-         <property name="text">
-          <string>Частота тактирования ядра</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QComboBox" name="box_number">
-         <item>
-          <property name="text">
-           <string>RT 1</string>
-          </property>
-         </item>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QComboBox" name="box_series">
-         <item>
-          <property name="text">
-           <string>Akva</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>BI</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>RNK</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>SVeI</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>BMI</string>
-          </property>
-         </item>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <widget class="QSpinBox" name="box_frequency_core">
-         <property name="maximum">
-          <number>9999</number>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="label_number">
-         <property name="text">
-          <string>Модель устройства</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="0">
-        <widget class="QLabel" name="label_series">
-         <property name="text">
-          <string>Серия устройства</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </item>
-    <item row="1" column="1">
-     <widget class="QGroupBox" name="group_GPIO">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-        <horstretch>1</horstretch>
-        <verstretch>1</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="title">
-       <string>Режим работы GPIO портов</string>
-      </property>
-      <layout class="QGridLayout" name="gridLayout_2">
-       <item row="5" column="0">
-        <widget class="QScrollArea" name="scrollArea">
-         <property name="widgetResizable">
-          <bool>true</bool>
-         </property>
-         <widget class="QWidget" name="scrollAreaWidgetContents_2">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>304</width>
-            <height>498</height>
-           </rect>
-          </property>
-          <layout class="QGridLayout" name="gridLayout_5">
-           <item row="8" column="1">
-            <widget class="QComboBox" name="comboBox_10"/>
-           </item>
-           <item row="14" column="0">
-            <widget class="QComboBox" name="comboBox_24"/>
-           </item>
-           <item row="12" column="1">
-            <widget class="QComboBox" name="comboBox_29"/>
-           </item>
-           <item row="8" column="0">
-            <widget class="QComboBox" name="comboBox_5"/>
-           </item>
-           <item row="0" column="1">
-            <widget class="QComboBox" name="comboBox"/>
-           </item>
-           <item row="13" column="1">
-            <widget class="QComboBox" name="comboBox_30"/>
-           </item>
-           <item row="7" column="1">
-            <widget class="QComboBox" name="comboBox_9"/>
-           </item>
-           <item row="10" column="0">
-            <widget class="QComboBox" name="comboBox_20"/>
-           </item>
-           <item row="10" column="1">
-            <widget class="QComboBox" name="comboBox_27"/>
-           </item>
-           <item row="11" column="1">
-            <widget class="QComboBox" name="comboBox_28"/>
-           </item>
-           <item row="7" column="0">
-            <widget class="QComboBox" name="comboBox_6"/>
-           </item>
-           <item row="13" column="0">
-            <widget class="QComboBox" name="comboBox_23"/>
-           </item>
-           <item row="5" column="0">
-            <widget class="QComboBox" name="comboBox_13"/>
-           </item>
-           <item row="3" column="0">
-            <widget class="QComboBox" name="comboBox_15"/>
-           </item>
-           <item row="15" column="0">
-            <widget class="QComboBox" name="comboBox_25"/>
-           </item>
-           <item row="11" column="0">
-            <widget class="QComboBox" name="comboBox_21"/>
-           </item>
-           <item row="9" column="0">
-            <widget class="QComboBox" name="comboBox_19"/>
-           </item>
-           <item row="1" column="0">
-            <widget class="QComboBox" name="comboBox_4"/>
-           </item>
-           <item row="12" column="0">
-            <widget class="QComboBox" name="comboBox_22"/>
-           </item>
-           <item row="14" column="1">
-            <widget class="QComboBox" name="comboBox_31"/>
-           </item>
-           <item row="2" column="1">
-            <widget class="QComboBox" name="comboBox_8"/>
-           </item>
-           <item row="6" column="0">
-            <widget class="QComboBox" name="comboBox_11"/>
-           </item>
-           <item row="4" column="0">
-            <widget class="QComboBox" name="comboBox_17"/>
-           </item>
-           <item row="6" column="1">
-            <widget class="QComboBox" name="comboBox_12"/>
-           </item>
-           <item row="9" column="1">
-            <widget class="QComboBox" name="comboBox_26"/>
-           </item>
-           <item row="15" column="1">
-            <widget class="QComboBox" name="comboBox_32"/>
-           </item>
-           <item row="3" column="1">
-            <widget class="QComboBox" name="comboBox_16"/>
-           </item>
-           <item row="2" column="0">
-            <widget class="QComboBox" name="comboBox_7"/>
-           </item>
-           <item row="1" column="1">
-            <widget class="QComboBox" name="comboBox_2"/>
-           </item>
-           <item row="0" column="0">
-            <widget class="QComboBox" name="comboBox_3"/>
-           </item>
-           <item row="4" column="1">
-            <widget class="QComboBox" name="comboBox_18"/>
-           </item>
-           <item row="5" column="1">
-            <widget class="QComboBox" name="comboBox_14"/>
-           </item>
-           <item row="16" column="0">
-            <spacer name="verticalSpacer">
-             <property name="orientation">
-              <enum>Qt::Vertical</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>20</width>
-               <height>40</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
-          </layout>
-         </widget>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </item>
    </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -452,7 +631,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>713</width>
+     <width>1009</width>
      <height>21</height>
     </rect>
    </property>
@@ -480,6 +659,67 @@
    <addaction name="menu_3"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QDockWidget" name="dockWidget_2">
+   <property name="minimumSize">
+    <size>
+     <width>335</width>
+     <height>183</height>
+    </size>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_8">
+    <layout class="QGridLayout" name="gridLayout_9">
+     <item row="0" column="0">
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>Конфмгурация</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="open_file">
+          <property name="text">
+           <string>Выбрать JSON файл для записи</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="date_upload">
+          <property name="text">
+           <string>Выгрузка данных</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>1</horstretch>
+         <verstretch>1</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="title">
+        <string>Данные</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_8"/>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
   <action name="action_open">
    <property name="text">
     <string>Открыть</string>

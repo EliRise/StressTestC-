@@ -1,0 +1,11 @@
+{
+	"devices":
+	[
+		{
+			"serial":"Susano",
+			"number":"Numer 4",
+			"frequency_core":"4000"
+			
+		}
+	]
+}
