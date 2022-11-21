@@ -45,7 +45,21 @@
        <item>
         <widget class="QPushButton" name="add_device">
          <property name="text">
-          <string>Добавить устройство</string>
+          <string>Сохранить конфигурацию</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Added">
+         <property name="text">
+          <string>Добавить порт GPIO</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Delete">
+         <property name="text">
+          <string>Удалить порт</string>
          </property>
         </widget>
        </item>
@@ -123,308 +137,20 @@
        <string>Режим работы GPIO портов</string>
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
-       <item row="5" column="0">
-        <widget class="QScrollArea" name="scrollArea">
-         <property name="widgetResizable">
+       <item row="0" column="0">
+        <widget class="QTableWidget" name="GPIO_table_Widget">
+         <property name="autoScroll">
           <bool>true</bool>
          </property>
-         <widget class="QWidget" name="scrollAreaWidgetContents_2">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>284</width>
-            <height>498</height>
-           </rect>
-          </property>
-          <layout class="QGridLayout" name="gridLayout_5">
-           <item row="8" column="1">
-            <widget class="QComboBox" name="comboBox_R"/>
-           </item>
-           <item row="14" column="0">
-            <widget class="QComboBox" name="comboBox_3">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="12" column="1">
-            <widget class="QComboBox" name="comboBox_Z"/>
-           </item>
-           <item row="8" column="0">
-            <widget class="QComboBox" name="comboBox_Q">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="0" column="1">
-            <widget class="QComboBox" name="comboBox_B"/>
-           </item>
-           <item row="13" column="1">
-            <widget class="QComboBox" name="comboBox_2"/>
-           </item>
-           <item row="7" column="1">
-            <widget class="QComboBox" name="comboBox_P"/>
-           </item>
-           <item row="10" column="0">
-            <widget class="QComboBox" name="comboBox_U">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="10" column="1">
-            <widget class="QComboBox" name="comboBox_V"/>
-           </item>
-           <item row="11" column="1">
-            <widget class="QComboBox" name="comboBox_X"/>
-           </item>
-           <item row="7" column="0">
-            <widget class="QComboBox" name="comboBox_O">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="13" column="0">
-            <widget class="QComboBox" name="comboBox_1">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="5" column="0">
-            <widget class="QComboBox" name="comboBox_K">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="3" column="0">
-            <widget class="QComboBox" name="comboBox_G">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="15" column="0">
-            <widget class="QComboBox" name="comboBox_5">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>ouiput</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="11" column="0">
-            <widget class="QComboBox" name="comboBox_W">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="9" column="0">
-            <widget class="QComboBox" name="comboBox_S">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="1" column="0">
-            <widget class="QComboBox" name="comboBox_C">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="12" column="0">
-            <widget class="QComboBox" name="comboBox_Y">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="14" column="1">
-            <widget class="QComboBox" name="comboBox_4"/>
-           </item>
-           <item row="2" column="1">
-            <widget class="QComboBox" name="comboBox_F"/>
-           </item>
-           <item row="6" column="0">
-            <widget class="QComboBox" name="comboBox_M">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="4" column="0">
-            <widget class="QComboBox" name="comboBox_I">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="6" column="1">
-            <widget class="QComboBox" name="comboBox_N"/>
-           </item>
-           <item row="9" column="1">
-            <widget class="QComboBox" name="comboBox_T"/>
-           </item>
-           <item row="15" column="1">
-            <widget class="QComboBox" name="comboBox_6"/>
-           </item>
-           <item row="3" column="1">
-            <widget class="QComboBox" name="comboBox_H"/>
-           </item>
-           <item row="2" column="0">
-            <widget class="QComboBox" name="comboBox_E">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="1" column="1">
-            <widget class="QComboBox" name="comboBox_D"/>
-           </item>
-           <item row="0" column="0">
-            <widget class="QComboBox" name="comboBox_A">
-             <item>
-              <property name="text">
-               <string>input</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>output</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="4" column="1">
-            <widget class="QComboBox" name="comboBox_J"/>
-           </item>
-           <item row="5" column="1">
-            <widget class="QComboBox" name="comboBox_L"/>
-           </item>
-           <item row="16" column="0">
-            <spacer name="verticalSpacer">
-             <property name="orientation">
-              <enum>Qt::Vertical</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>20</width>
-               <height>40</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
-          </layout>
-         </widget>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <property name="selectionMode">
+          <enum>QAbstractItemView::SingleSelection</enum>
+         </property>
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
         </widget>
        </item>
       </layout>

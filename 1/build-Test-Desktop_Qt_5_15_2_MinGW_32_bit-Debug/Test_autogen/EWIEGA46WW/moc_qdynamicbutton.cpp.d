@@ -1,27 +1,5 @@
-Test_autogen/timestamp: \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/CMakeParseArguments.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/CMakeRCInformation.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/Compiler/GNU.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/Platform/Windows-windres.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/Platform/Windows.cmake \
-  C:/Program\ Files/CMake/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/QFile \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/QJsonArray \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/QJsonObject \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/QJsonParseError \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qabstractitemmodel.h \
+C:/StressTestC++/1/build-Test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/Test_autogen/EWIEGA46WW/moc_qdynamicbutton.cpp: C:/StressTestC++/project/Test/qdynamicbutton.h \
+  C:/StressTestC++/1/build-Test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/Test_autogen/moc_predefs.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qalgorithms.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qarraydata.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qatomic.h \
@@ -29,21 +7,12 @@ Test_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qbasicatomic.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qbytearray.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qbytearraylist.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qcborcommon.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qcborvalue.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qchar.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qcompilerdetection.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qconfig.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qcontainerfwd.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qcontainertools_impl.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qcontiguouscache.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qdatastream.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qdatetime.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qdebug.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qdir.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qfile.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qfiledevice.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qfileinfo.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qflags.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qgenericatomic.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qglobal.h \
@@ -51,17 +20,10 @@ Test_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qhash.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qhashfunctions.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qiodevice.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qitemselectionmodel.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qiterator.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qjsonarray.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qjsondocument.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qjsonobject.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qjsonvalue.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qline.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qlist.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qlocale.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qlogging.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qmap.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qmargins.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qmetatype.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qnamespace.h \
@@ -76,9 +38,7 @@ Test_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qrect.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qrefcount.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qregexp.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qregularexpression.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qscopedpointer.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qset.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qshareddata.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qsharedpointer.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qsharedpointer_impl.h \
@@ -92,15 +52,10 @@ Test_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qsysinfo.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qsystemdetection.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qtcore-config.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qtextstream.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qtypeinfo.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qurl.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/quuid.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtCore/qvariant.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qvarlengtharray.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qvector.h \
   C:/Qt/5.15.2/mingw81_32/include/QtCore/qversiontagging.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtGui/QStandardItem \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qbrush.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qcolor.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qcursor.h \
@@ -113,91 +68,24 @@ Test_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qmatrix.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qpaintdevice.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qpalette.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtGui/qpen.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qpixelformat.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qpixmap.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qpolygon.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qregion.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qrgb.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qrgba64.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtGui/qstandarditemmodel.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtGui/qtextcursor.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtGui/qtextformat.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtGui/qtextoption.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qtgui-config.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qtguiglobal.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qtransform.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtGui/qvalidator.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qwindowdefs.h \
   C:/Qt/5.15.2/mingw81_32/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QComboBox \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QFileDialog \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QLineEdit \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QListView \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QMainWindow \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QMessageBox \
   C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QPushButton \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QWidget \
   C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractbutton.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractitemdelegate.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractitemview.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractscrollarea.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractslider.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractspinbox.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qcombobox.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qdialog.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qfiledialog.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qframe.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qlineedit.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qlistview.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qmainwindow.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qmessagebox.h \
   C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qpushbutton.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qrubberband.h \
   C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qsizepolicy.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qslider.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qstyle.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qstyleoption.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qtabbar.h \
-  C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qtabwidget.h \
   C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qwidget.h \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5/Qt5Config.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5/Qt5ConfigVersion.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5/Qt5ModuleLocation.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-  C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake \
-  C:/Qt/Tools/QtCreator-7.0.0/share/qtcreator/package-manager/auto-setup.cmake \
   C:/Qt/Tools/mingw810_32/i686-w64-mingw32/include/_mingw.h \
   C:/Qt/Tools/mingw810_32/i686-w64-mingw32/include/_mingw_mac.h \
   C:/Qt/Tools/mingw810_32/i686-w64-mingw32/include/_mingw_off_t.h \
@@ -370,14 +258,4 @@ Test_autogen/timestamp: \
   C:/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/vector \
   C:/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdarg.h \
   C:/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stddef.h \
-  C:/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdint.h \
-  CMakeFiles/3.25.0-rc4/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.25.0-rc4/CMakeRCCompiler.cmake \
-  CMakeFiles/3.25.0-rc4/CMakeSystem.cmake \
-  Test_autogen/moc_predefs.h \
-  C:/StressTestC++/project/Test/CMakeLists.txt \
-  C:/StressTestC++/project/Test/main.cpp \
-  C:/StressTestC++/project/Test/mainwindow.cpp \
-  C:/StressTestC++/project/Test/mainwindow.h \
-  C:/StressTestC++/project/Test/mainwindow.ui \
-  C:/Program\ Files/CMake/bin/cmake.exe
+  C:/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdint.h

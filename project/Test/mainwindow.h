@@ -36,42 +36,10 @@ public:
     QFile file;
 
 
-private slots:
+private slots:   
     void on_radioButton_toggled(bool checked);
 
     void on_box_series_activated(int index);
-
-    void on_comboBox_A_activated(int index);
-
-    void on_comboBox_C_activated(int index);
-
-    void on_comboBox_E_activated(int index);
-
-    void on_comboBox_G_activated(int index);
-
-    void on_comboBox_I_activated(int index);
-
-    void on_comboBox_K_activated(int index);
-
-    void on_comboBox_M_activated(int index);
-
-    void on_comboBox_O_activated(int index);
-
-    void on_comboBox_Q_activated(int index);
-
-    void on_comboBox_S_activated(int index);
-
-    void on_comboBox_U_activated(int index);
-
-    void on_comboBox_W_activated(int index);
-
-    void on_comboBox_Y_activated(int index);
-
-    void on_comboBox_1_activated(int index);
-
-    void on_comboBox_3_activated(int index);
-
-    void on_comboBox_5_activated(int index);
 
     void on_open_file_clicked();
 
@@ -79,8 +47,13 @@ private slots:
 
 
     void on_add_device_clicked();
+     // СЛОТ для получения номера нажатой динамической кнопки
+
+    void on_Added_clicked();
 
 private:
     Ui::MainWindow *ui;
 };
+
+
 #endif // MAINWINDOW_H

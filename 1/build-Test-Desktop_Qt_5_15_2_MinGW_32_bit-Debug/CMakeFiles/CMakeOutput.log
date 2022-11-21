@@ -13,17 +13,17 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 The CXX compiler identification is GNU, found in "C:/StressTestC++/1/build-Test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/3.25.0-rc4/CompilerIdCXX/a.exe"
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/StressTestC++/1/build-Test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeScratch/TryCompile-5eupz2
+Change Dir: C:/StressTestC++/1/build-Test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeScratch/TryCompile-ce6wdv
 
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_f76ff && [1/2] Building CXX object CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj
+Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_e42d4 && [1/2] Building CXX object CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj
 Using built-in specs.
 COLLECT_GCC=C:\Qt\Tools\mingw810_32\bin\g++.exe
 Target: i686-w64-mingw32
 Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
 Thread model: posix
 gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
- C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Pentagon\AppData\Local\Temp\ccsx2b5g.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Pentagon\AppData\Local\Temp\ccoNUOuw.s
 GNU C++14 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) version 8.1.0 (i686-w64-mingw32)
 	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
 
@@ -50,13 +50,13 @@ GNU C++14 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) version 8.1.0 (i68
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 363c147591782b306ba23bb274599884
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
- C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\Pentagon\AppData\Local\Temp\ccsx2b5g.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\Pentagon\AppData\Local\Temp\ccoNUOuw.s
 GNU assembler version 2.30 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.30
 COMPILER_PATH=C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/;C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/;C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/
 LIBRARY_PATH=C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/;C:/Qt/Tools/mingw810_32/bin/../lib/gcc/;C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/;C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/;C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/;C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
-[2/2] Linking CXX executable cmTC_f76ff.exe
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
+[2/2] Linking CXX executable cmTC_e42d4.exe
 Using built-in specs.
 COLLECT_GCC=C:\Qt\Tools\mingw810_32\bin\g++.exe
 COLLECT_LTO_WRAPPER=C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe
@@ -66,9 +66,9 @@ Thread model: posix
 gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
 COMPILER_PATH=C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/;C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/;C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/
 LIBRARY_PATH=C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/;C:/Qt/Tools/mingw810_32/bin/../lib/gcc/;C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/;C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/;C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/;C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f76ff.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
- C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Pentagon\AppData\Local\Temp\ccBnwpOe.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_f76ff.exe C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_f76ff.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f76ff.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e42d4.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Pentagon\AppData\Local\Temp\ccYlHsxB.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_e42d4.exe C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_e42d4.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e42d4.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
 
 
 
@@ -93,17 +93,17 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/StressTestC++/1/build-Test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeScratch/TryCompile-5eupz2]
+  ignore line: [Change Dir: C:/StressTestC++/1/build-Test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeScratch/TryCompile-ce6wdv]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_f76ff && [1/2] Building CXX object CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_e42d4 && [1/2] Building CXX object CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Qt\Tools\mingw810_32\bin\g++.exe]
   ignore line: [Target: i686-w64-mingw32]
   ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.1.0 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  ignore line: [ C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Pentagon\AppData\Local\Temp\ccsx2b5g.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  ignore line: [ C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Pentagon\AppData\Local\Temp\ccoNUOuw.s]
   ignore line: [GNU C++14 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) version 8.1.0 (i686-w64-mingw32)]
   ignore line: [	compiled by GNU C version 8.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
   ignore line: []
@@ -130,8 +130,8 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 363c147591782b306ba23bb274599884]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  ignore line: [ C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\Pentagon\AppData\Local\Temp\ccsx2b5g.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  ignore line: [ C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\Pentagon\AppData\Local\Temp\ccoNUOuw.s]
   ignore line: [GNU assembler version 2.30 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.30]
   ignore line: [COMPILER_PATH=C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/]
   ignore line: [C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/]
@@ -142,8 +142,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/]
   ignore line: [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/]
   ignore line: [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  ignore line: [[2/2] Linking CXX executable cmTC_f76ff.exe]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  ignore line: [[2/2] Linking CXX executable cmTC_e42d4.exe]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Qt\Tools\mingw810_32\bin\g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe]
@@ -160,13 +160,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/]
   ignore line: [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/]
   ignore line: [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f76ff.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  link line: [ C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Pentagon\AppData\Local\Temp\ccBnwpOe.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_f76ff.exe C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_f76ff.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e42d4.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Pentagon\AppData\Local\Temp\ccYlHsxB.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_e42d4.exe C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_e42d4.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o]
     arg [C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=C:/Qt/Tools/mingw810_32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\Pentagon\AppData\Local\Temp\ccBnwpOe.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Pentagon\AppData\Local\Temp\ccYlHsxB.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -194,7 +194,7 @@ Parsed CXX implicit link information from above output:
     arg [-u] ==> ignore
     arg [___deregister_frame_info] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f76ff.exe] ==> ignore
+    arg [cmTC_e42d4.exe] ==> ignore
     arg [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o]
     arg [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o] ==> obj [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o]
     arg [-LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0] ==> dir [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0]
@@ -203,9 +203,9 @@ Parsed CXX implicit link information from above output:
     arg [-LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib] ==> dir [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib]
     arg [-LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib] ==> dir [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib]
     arg [-LC:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..] ==> dir [C:/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..]
-    arg [CMakeFiles/cmTC_f76ff.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_e42d4.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_f76ff.dll.a] ==> ignore
+    arg [libcmTC_e42d4.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
