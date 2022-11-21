@@ -3,7 +3,7 @@
 Проект находится в папке 1.
 
 1.Реализованная графическая часть проекта.
-![image](https://user-images.githubusercontent.com/81958264/203050746-c65d1438-bc5c-4a81-9e21-f7ce538beae0.png)
+![image](https://user-images.githubusercontent.com/81958264/203174231-57cd9b43-8745-4da3-907b-e558bea4128d.png)
 
 
 2.В проект добавлена библиотека RapidJson. (Местоположение 1\Test\external\) Не вся, только include.
