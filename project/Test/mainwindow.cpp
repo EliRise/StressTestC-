@@ -419,7 +419,7 @@ void MainWindow::on_date_upload_clicked()
 {
     if (file.open(QIODevice::ReadOnly|QFile::Text))
     {
-        doc = QJsonDocument::fromJson(QByteArray(file.readAll()), &docError);
+        doc = QJsonDocument::fromJson(QByteArray(file.readAll()),&docError);
         file.close();
 
         if (docError.errorString().toInt()==QJsonParseError::NoError)
@@ -427,7 +427,18 @@ void MainWindow::on_date_upload_clicked()
             QStandardItemModel* model = new QStandardItemModel(nullptr);
             model->setHorizontalHeaderLabels(QStringList()<<"serial"<<"number"<<"frequency_core");
 
-            docAr = QJsonValue
+            docAr = QJsonValue(doc.object().value("devices")).toArray();
+            for ( int i = 0; i<docAr.count();i++ )
+            {
+                QStandardItem* item_col_1 = new  QStandardItem(docAr.at(i).toObject().value("serial").toString());
+                QStandardItem* item_col_2 = new  QStandardItem(docAr.at(i).toObject().value("number").toString());
+                QStandardItem* item_col_3 = new  QStandardItem(QString::number(docAr.at(i).toObject().value("frequency_core").toInt()));
+
+                model->appendRow(QList<QStandardItem*>()<<item_col_1<<item_col_2<<item_col_3);
+            }
+
+            ui->tableView->setModel(model);
+            ui->tableView->resizeColumnsToContents();
         }
     }
     else
@@ -435,5 +446,40 @@ void MainWindow::on_date_upload_clicked()
         QMessageBox::information(nullptr, "info","Файл не открыт для чтония");
 
     }
+}
+
+
+
+
+
+
+
+void MainWindow::on_add_device_clicked()
+{
+    if (file.open(QIODevice::WriteOnly))
+    {
+        QVariantMap map;
+        map.insert("serial", ui->box_series->itemText(ui->box_series->currentIndex()));
+        map.insert("number", ui->box_number->itemText(ui->box_number->currentIndex()));
+        map.insert("frequency_core", ui->box_frequency_core->text().toInt());
+
+
+        QJsonObject json = QJsonObject::fromVariantMap(map);
+
+        QJsonArray docToWrite = doc.object().value("devices").toArray();
+        docToWrite.append(json);
+        doc.setArray(docToWrite);
+
+        file.write("{\"devices\":" + doc.toJson() + "}");
+        file.close();
+
+        on_date_upload_clicked();
+    }
+    else
+    {
+        QMessageBox::information(nullptr, "info","Файл не открыт для чтония");
+
+    }
+
 }
 

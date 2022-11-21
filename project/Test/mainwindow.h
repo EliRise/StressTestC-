@@ -77,6 +77,9 @@ private slots:
 
     void on_date_upload_clicked();
 
+
+    void on_add_device_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

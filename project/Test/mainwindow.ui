@@ -43,7 +43,7 @@
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
-        <widget class="QPushButton" name="add_conf">
+        <widget class="QPushButton" name="add_device">
          <property name="text">
           <string>Добавить устройство</string>
          </property>
@@ -132,8 +132,8 @@
           <property name="geometry">
            <rect>
             <x>0</x>
-            <y>-39</y>
-            <width>281</width>
+            <y>0</y>
+            <width>284</width>
             <height>498</height>
            </rect>
           </property>
@@ -452,7 +452,7 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>296</width>
+            <width>299</width>
             <height>365</height>
            </rect>
           </property>
@@ -663,7 +663,7 @@
    <property name="minimumSize">
     <size>
      <width>335</width>
-     <height>183</height>
+     <height>253</height>
     </size>
    </property>
    <attribute name="dockWidgetArea">
@@ -714,7 +714,11 @@
        <property name="title">
         <string>Данные</string>
        </property>
-       <layout class="QGridLayout" name="gridLayout_8"/>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <item row="0" column="0">
+         <widget class="QTableView" name="tableView"/>
+        </item>
+       </layout>
       </widget>
      </item>
     </layout>
