@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <QComboBox>
+#include <thread>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -153,23 +154,19 @@ void MainWindow::on_Added_clicked()
 
     QComboBox *pull_combobox = new QComboBox;
 
-    /*on_mode_combobox_activated(int (index))
-    {
-        if (index == 0)
+    while (true) {
+        if (mode_combobox->currentIndex() == 0)
         {
-            ui->pull_comboBox->clear();
+            //pull_combobox->clear();
             pull_combobox->addItems(QStringList() << "floating" << "pull-up" << "pull-down" << "analog" );
         }
-        else if (index == 1)
+        else if (mode_combobox->currentIndex() == 1)
         {
-            ui->pull_comboBox->clear();
+            //pull_combobox->clear();
             pull_combobox->addItems(QStringList() << "push-pull" << "open-drain" << "alternate function push-pull" << "alternate function open-drain" );
-
         }
     }
-    */
 
-    pull_combobox->addItems(QStringList() << "input" << "output" );
     ui->GPIO_table_Widget->setCellWidget(rowCount, 1, pull_combobox);
 }
 

@@ -8,6 +8,16 @@
         "frequency_core": 0,
         "number": "SOOT1",
         "serial": "Akva"
+    },
+    {
+        "frequency_core": 0,
+        "number": "SOOT1",
+        "serial": "Akva"
+    },
+    {
+        "frequency_core": 500,
+        "number": "RTF2",
+        "serial": "SVeI"
     }
 ]
 }
