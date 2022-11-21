@@ -154,18 +154,20 @@ void MainWindow::on_Added_clicked()
 
     QComboBox *pull_combobox = new QComboBox;
 
-    while (true) {
         if (mode_combobox->currentIndex() == 0)
         {
-            //pull_combobox->clear();
+            pull_combobox->clear();
             pull_combobox->addItems(QStringList() << "floating" << "pull-up" << "pull-down" << "analog" );
         }
         else if (mode_combobox->currentIndex() == 1)
         {
-            //pull_combobox->clear();
+            pull_combobox->clear();
             pull_combobox->addItems(QStringList() << "push-pull" << "open-drain" << "alternate function push-pull" << "alternate function open-drain" );
         }
-    }
+
+        //while (true) {
+        //    mode_combobox->currentIndex();
+        //}
 
     ui->GPIO_table_Widget->setCellWidget(rowCount, 1, pull_combobox);
 }

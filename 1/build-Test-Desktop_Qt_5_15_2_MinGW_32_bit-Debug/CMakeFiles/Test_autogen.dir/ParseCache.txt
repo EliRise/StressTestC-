@@ -322,9 +322,9 @@ C:/StressTestC++/project/Test/mainwindow.h
  mdp:C:/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdarg.h
  mdp:C:/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stddef.h
  mdp:C:/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdint.h
-C:/StressTestC++/project/Test/main.cpp
 C:/StressTestC++/project/Test/mainwindow.cpp
  uic:./ui_mainwindow.h
+C:/StressTestC++/project/Test/main.cpp
 C:/StressTestC++/project/Test/qdynamicbutton.h
  mmc:Q_OBJECT
  mdp:C:/StressTestC++/project/Test/qdynamicbutton.h
