@@ -8,12 +8,14 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
     on_box_series_activated(ui->box_series->currentIndex());
 
     ui->GPIO_table_Widget->setColumnCount(2);
 
     ui->GPIO_table_Widget->setHorizontalHeaderLabels(QStringList() << "Mode" << "Pull");
 
+    on_Added_clicked();
 
 }
 
@@ -73,7 +75,7 @@ void MainWindow::on_date_upload_clicked()
         if (docError.errorString().toInt()==QJsonParseError::NoError)
         {
             QStandardItemModel* model = new QStandardItemModel(nullptr);
-            model->setHorizontalHeaderLabels(QStringList()<<"serial"<<"number"<<"frequency_core");
+            model->setHorizontalHeaderLabels(QStringList()<<"serial" <<"number" <<"frequency_core" <<"interfaces");
 
             docAr = QJsonValue(doc.object().value("devices")).toArray();
             for ( int i = 0; i<docAr.count();i++ )
@@ -81,6 +83,9 @@ void MainWindow::on_date_upload_clicked()
                 QStandardItem* item_col_1 = new  QStandardItem(docAr.at(i).toObject().value("serial").toString());
                 QStandardItem* item_col_2 = new  QStandardItem(docAr.at(i).toObject().value("number").toString());
                 QStandardItem* item_col_3 = new  QStandardItem(QString::number(docAr.at(i).toObject().value("frequency_core").toInt()));
+
+
+                QJsonArray interfacesAr = QJsonValue(QJsonObject(docAr.at(i).toObject()).value("interfaces")).toArray();
 
                 model->appendRow(QList<QStandardItem*>()<<item_col_1<<item_col_2<<item_col_3);
             }
@@ -109,6 +114,7 @@ void MainWindow::on_add_device_clicked()
         QVariantMap map;
         map.insert("serial", ui->box_series->itemText(ui->box_series->currentIndex()));
         map.insert("number", ui->box_number->itemText(ui->box_number->currentIndex()));
+        //map.insert("number", mode_combobox->itemText(mode_combobox->currentIndex()));
         map.insert("frequency_core", ui->box_frequency_core->text().toInt());
 
 

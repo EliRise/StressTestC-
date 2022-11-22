@@ -32,6 +32,7 @@ public:
     QJsonArray docAr;
     QJsonParseError docError;
 
+
     QString globpath;
     QFile file;
 
