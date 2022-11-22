@@ -157,43 +157,45 @@ void MainWindow::on_add_device_clicked()
 
 void MainWindow::on_Added_clicked()
 {
-    int rowCount = ui->GPIO_table_Widget->rowCount();
-    ui->GPIO_table_Widget->setRowCount(rowCount + 1);
+    this->tableRows.push_back(new TableRow(this->ui->GPIO_table_Widget));
+
+    //    int rowCount = ui->GPIO_table_Widget->rowCount();
+    //    ui->GPIO_table_Widget->setRowCount(rowCount + 1);
 
 
-    QTableWidgetItem *items [] = {
-        new QTableWidgetItem,
-        new QTableWidgetItem
-    };
+    //    QTableWidgetItem *items [] = {
+    //        new QTableWidgetItem,
+    //        new QTableWidgetItem
+    //    };
 
-    const size_t count = sizeof(items) / sizeof(QTableWidgetItem *);
-    for(size_t column = 0; column < count; column++)
-        ui->GPIO_table_Widget->setItem(rowCount, column, items[column]);
+    //    const size_t count = sizeof(items) / sizeof(QTableWidgetItem *);
+    //    for(size_t column = 0; column < count; column++)
+    //        ui->GPIO_table_Widget->setItem(rowCount, column, items[column]);
 
-    QComboBox *mode_combobox = new QComboBox;
-    mode_combobox->addItems(QStringList() << "input" << "output" );
-    ui->GPIO_table_Widget->setCellWidget(rowCount, 0, mode_combobox);
+    //    QComboBox *mode_combobox = new QComboBox;
+    //    mode_combobox->addItems(QStringList() << "input" << "output" );
+    //    ui->GPIO_table_Widget->setCellWidget(rowCount, 0, mode_combobox);
 
-    QComboBox *pull_combobox = new QComboBox;
+    //    QComboBox *pull_combobox = new QComboBox;
 
-    //QTableWidget::cellWidget( int row, int column )
+    //    QTableWidget::cellWidget( int row, int column )
 
-        if (mode_combobox->currentIndex() == 0)
-        {
-            pull_combobox->clear();
-            pull_combobox->addItems(QStringList() << "floating" << "pull-up" << "pull-down" << "analog" );
-        }
-        else if (mode_combobox->currentIndex() == 1)
-        {
-            pull_combobox->clear();
-            pull_combobox->addItems(QStringList() << "push-pull" << "open-drain" << "alternate function push-pull" << "alternate function open-drain" );
-        }
+    //            if (mode_combobox->currentIndex() == 0)
+    //    {
+    //        pull_combobox->clear();
+    //        pull_combobox->addItems(QStringList() << "floating" << "pull-up" << "pull-down" << "analog" );
+    //    }
+    //    else if (mode_combobox->currentIndex() == 1)
+    //    {
+    //        pull_combobox->clear();
+    //        pull_combobox->addItems(QStringList() << "push-pull" << "open-drain" << "alternate function push-pull" << "alternate function open-drain" );
+    //    }
 
-        //while (true) {
-        //    mode_combobox->currentIndex();
-        //}
+    //    while (true) {
+    //        mode_combobox->currentIndex();
+    //    }
 
-    ui->GPIO_table_Widget->setCellWidget(rowCount, 1, pull_combobox);
+    //    ui->GPIO_table_Widget->setCellWidget(rowCount, 1, pull_combobox);
 }
 
 
