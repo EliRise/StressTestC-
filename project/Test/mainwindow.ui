@@ -165,7 +165,7 @@
        </sizepolicy>
       </property>
       <property name="title">
-       <string>Задейственные интерфейсы</string>
+       <string>Задействанные интерфейсы</string>
       </property>
       <layout class="QGridLayout" name="gridLayout_4">
        <item row="3" column="2">
@@ -400,7 +400,7 @@
      <item row="0" column="0">
       <widget class="QGroupBox" name="groupBox">
        <property name="title">
-        <string>Конфмгурация</string>
+        <string>Конфигурация</string>
        </property>
        <layout class="QGridLayout" name="gridLayout_7">
         <item row="0" column="0">

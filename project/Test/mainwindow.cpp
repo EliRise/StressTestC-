@@ -80,14 +80,28 @@ void MainWindow::on_date_upload_clicked()
             docAr = QJsonValue(doc.object().value("devices")).toArray();
             for ( int i = 0; i<docAr.count();i++ )
             {
-                QStandardItem* item_col_1 = new  QStandardItem(docAr.at(i).toObject().value("serial").toString());
-                QStandardItem* item_col_2 = new  QStandardItem(docAr.at(i).toObject().value("number").toString());
-                QStandardItem* item_col_3 = new  QStandardItem(QString::number(docAr.at(i).toObject().value("frequency_core").toInt()));
+                QStandardItem *item_col_1 = new  QStandardItem(docAr.at(i).toObject().value("serial").toString());
+                QStandardItem *item_col_2 = new  QStandardItem(docAr.at(i).toObject().value("number").toString());
+                QStandardItem *item_col_3 = new  QStandardItem(QString::number(docAr.at(i).toObject().value("frequency_core").toInt()));
 
 
                 QJsonArray interfacesAr = QJsonValue(QJsonObject(docAr.at(i).toObject()).value("interfaces")).toArray();
+                QString sost = "";
+                for (int j = 0; j<interfacesAr.count(); j++)
+                {
+                    if (sost == "")
+                    {
+                        sost = interfacesAr[j].toString();
+                    }
+                    else
+                    {
+                        sost = sost + ";" + interfacesAr[j].toString();
+                    }
+                }
 
-                model->appendRow(QList<QStandardItem*>()<<item_col_1<<item_col_2<<item_col_3);
+                QStandardItem *item_col_4 = new QStandardItem(sost);
+
+                model->appendRow(QList<QStandardItem*>()<<item_col_1<<item_col_2<<item_col_3<<item_col_4);
             }
 
             ui->tableView->setModel(model);
@@ -96,7 +110,7 @@ void MainWindow::on_date_upload_clicked()
     }
     else
     {
-        QMessageBox::information(nullptr, "info","Файл не открыт для чтония");
+        QMessageBox::information(nullptr, "info","Файл не открыт для чтения");
 
     }
 }
@@ -117,6 +131,8 @@ void MainWindow::on_add_device_clicked()
         //map.insert("number", mode_combobox->itemText(mode_combobox->currentIndex()));
         map.insert("frequency_core", ui->box_frequency_core->text().toInt());
 
+        map.insert("interfaces", QJsonArray::fromStringList(QStringList((" USB :" + (ui->Box_USB->currentText()) + "; UART :" + (ui->Box_UART->currentText()) + "; SPI :" + (ui->Box_SPI->currentText()) + "; 12C :" + (ui->Box_12C->currentText()) + "; Ethernet :" + (ui->Box_Ethernet->currentText()) + "; 1-Wire :" + (ui->Box_1Wire->currentText()) + "; Wide-Bus :" + (ui->Box_WideBus->currentText())).split(";"))));
+
 
         QJsonObject json = QJsonObject::fromVariantMap(map);
 
@@ -131,7 +147,7 @@ void MainWindow::on_add_device_clicked()
     }
     else
     {
-        QMessageBox::information(nullptr, "info","Файл не открыт для чтония");
+        QMessageBox::information(nullptr, "info","Файл не открыт для чтения");
 
     }
 
@@ -160,6 +176,8 @@ void MainWindow::on_Added_clicked()
 
     QComboBox *pull_combobox = new QComboBox;
 
+    //QTableWidget::cellWidget( int row, int column )
+
         if (mode_combobox->currentIndex() == 0)
         {
             pull_combobox->clear();
@@ -180,4 +198,20 @@ void MainWindow::on_Added_clicked()
 
 
 
+
+
+void MainWindow::on_Delete_clicked()
+{
+    ui->GPIO_table_Widget->removeRow(ui->GPIO_table_Widget->currentRow());
+}
+
+
+
+
+
+
+void MainWindow::on_Box_USB_activated(int index)
+{
+
+}
 

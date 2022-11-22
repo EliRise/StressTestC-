@@ -52,6 +52,10 @@ private slots:
 
     void on_Added_clicked();
 
+    void on_Delete_clicked();
+
+    void on_Box_USB_activated(int index);
+
 private:
     Ui::MainWindow *ui;
 };

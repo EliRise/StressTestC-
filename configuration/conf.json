@@ -1,23 +1,25 @@
 {"devices":[
     {
-        "frequency_core": 1200,
-        "number": "GT3",
-        "serial": "RNK"
-    },
-    {
         "frequency_core": 0,
+        "interfaces": [
+            "USB :Activated; UART :Activated; SPI :Activated; 12C :Activated; Ethernet :Activated; 1-Wire :Activated; Wide-Bus :Activated"
+        ],
         "number": "SOOT1",
         "serial": "Akva"
     },
     {
         "frequency_core": 0,
+        "interfaces": [
+            "USB :Activated",
+            " UART :Activated",
+            " SPI :Activated",
+            " 12C :Activated",
+            " Ethernet :Activated",
+            " 1-Wire :Activated",
+            " Wide-Bus :Activated"
+        ],
         "number": "SOOT1",
         "serial": "Akva"
-    },
-    {
-        "frequency_core": 500,
-        "number": "RTF2",
-        "serial": "SVeI"
     }
 ]
 }
