@@ -13,10 +13,11 @@
 #include <QFile>
 #include <QFileDialog>
 #include <QTableWidget>
-
+#include <QStandardItemModel>
 #include <QStandardItem>
 #include <QMessageBox>
 #include <QStringList>
+#include <QtCore>
 
 #include <iostream>
 
@@ -31,6 +32,9 @@ class TableRow : public QObject {
     QComboBox *modeCombo;
     QComboBox *pullMode;
 
+
+    //QStringList *pull_mode_row;
+
     // Список значений для направления работы порта
     const QStringList directionStrings{"INPUT", "OUTPUT"};
     // Список значений для режима работы порта в состоянии "INPUT"
@@ -40,13 +44,19 @@ class TableRow : public QObject {
     const QStringList pullMode_II{"push-pull", "open-drain", \
                                   "alternate function push-pull", \
                                   "alternate function open-drain"};
+    //QVariantMap *map_GPIO;
+
+
 
 public:
     TableRow(QTableWidget * table, QObject * parent = nullptr) : QObject(parent) {
         uint32_t currentRows = table->rowCount();
-        std::cout << currentRows << std::endl;
+        uint32_t currentColumn = table->columnCount();
         table->setRowCount(currentRows + 1);
         std::cout << table->rowCount() << std::endl;
+        std::cout << currentColumn << std::endl;
+
+        //QWidget *QTableWidget::cellWidget(int 1, int 1) const
 
         modeCombo = new QComboBox();
         pullMode = new QComboBox();
@@ -73,10 +83,19 @@ protected slots:
         this->pullMode->clear();
         if (text.compare(directionStrings[0])) {
             this->pullMode->addItems(pullMode_I);
+
         } else if (text.compare(directionStrings[1])) {
             this->pullMode->addItems(pullMode_II);
         }
+        //map_GPIO.insert(pullMode_I, pullMode_II);
+        //for (int i = 0; i<this->table->rowCount(); i++)
+        //{
+
+        //}
     }
+    /*1.
+
+*/
 };
 
 class MainWindow : public QMainWindow
@@ -93,6 +112,9 @@ public:
     QJsonArray docAr;
     QJsonParseError docError;
 
+    QStandardItem *serias_name;
+    QStandardItem *number_name;
+    QStandardItem *frequency_core;
 
     QString globpath;
     QFile file;
@@ -117,8 +139,15 @@ private slots:
 
     void on_Box_USB_activated(int index);
 
+
+    //void setStdout();
+    //void command();
+
+
 private:
     Ui::MainWindow *ui;
+
+    QProcess *m_process;
 };
 
 

@@ -65,7 +65,8 @@
 		"C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
 		"C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"C:/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeParseArguments.cmake"
+		"C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeParseArguments.cmake",
+		"C:/StressTestC++/project/Test/resourses.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/StressTestC++/project/Test",
 	"DEP_FILE" : "C:/StressTestC++/1/build-Test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/Test_autogen/deps",

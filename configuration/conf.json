@@ -1,16 +1,15 @@
 {"devices":[
     {
-        "frequency_core": 0,
-        "interfaces": [
-            "USB :Activated; UART :Activated; SPI :Activated; 12C :Activated; Ethernet :Activated; 1-Wire :Activated; Wide-Bus :Activated"
+        "GPIO_1": [
+            "INPUT:push-pull",
+            "INPUT:push-pull",
+            "INPUT:push-pull",
+            "INPUT:push-pull",
+            "INPUT:push-pull"
         ],
-        "number": "SOOT1",
-        "serial": "Akva"
-    },
-    {
         "frequency_core": 0,
         "interfaces": [
-            "USB :Activated",
+            " USB :Activated",
             " UART :Activated",
             " SPI :Activated",
             " 12C :Activated",
@@ -20,6 +19,85 @@
         ],
         "number": "SOOT1",
         "serial": "Akva"
+    },
+    {
+        "GPIO_1": [
+            "INPUT:push-pull",
+            "OUTPUT:floating",
+            "INPUT:push-pull",
+            "OUTPUT:pull-up",
+            "INPUT:push-pull"
+        ],
+        "frequency_core": 0,
+        "interfaces": [
+            " USB :Activated",
+            " UART :Activated",
+            " SPI :Activated",
+            " 12C :Activated",
+            " Ethernet :Activated",
+            " 1-Wire :Activated",
+            " Wide-Bus :Activated"
+        ],
+        "number": "SOOT1",
+        "serial": "Akva"
+    },
+    {
+        "GPIO_1": [
+            "INPUT:push-pull",
+            "OUTPUT:pull-down",
+            "OUTPUT:floating",
+            "OUTPUT:floating",
+            "INPUT:push-pull",
+            "INPUT:push-pull",
+            "INPUT:push-pull",
+            "INPUT:push-pull"
+        ],
+        "frequency_core": 1543,
+        "interfaces": [
+            " USB :Activated",
+            " UART :Activated",
+            " SPI :Activated",
+            " 12C :Deactivated",
+            " Ethernet :Activated",
+            " 1-Wire :Activated",
+            " Wide-Bus :Activated"
+        ],
+        "number": "GT1",
+        "serial": "RNK"
+    },
+    {
+        "GPIO_1": [
+            "INPUT:push-pull"
+        ],
+        "frequency_core": 0,
+        "interfaces": [
+            " USB :Activated",
+            " UART :Activated",
+            " SPI :Activated",
+            " 12C :Activated",
+            " Ethernet :Activated",
+            " 1-Wire :Activated",
+            " Wide-Bus :Activated"
+        ],
+        "number": "SOOT1",
+        "serial": "Akva"
+    },
+    {
+        "GPIO_1": [
+            "INPUT:push-pull"
+        ],
+        "frequency_core": 1000,
+        "interfaces": [
+            " USB :Activated",
+            " UART :Activated",
+            " SPI :Activated",
+            " 12C :Activated",
+            " Ethernet :Activated",
+            " 1-Wire :Activated",
+            " Wide-Bus :Activated"
+        ],
+        "number": "RTF2",
+        "serial": "SVeI"
     }
 ]
 }
