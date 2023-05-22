@@ -1,5 +1,0 @@
-H:/Programming/Qtprojects/StressTestC-/project/Test/builds/build-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/Test.dir
-H:/Programming/Qtprojects/StressTestC-/project/Test/builds/build-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/edit_cache.dir
-H:/Programming/Qtprojects/StressTestC-/project/Test/builds/build-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/rebuild_cache.dir
-H:/Programming/Qtprojects/StressTestC-/project/Test/builds/build-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/Test_autogen_timestamp_deps.dir
-H:/Programming/Qtprojects/StressTestC-/project/Test/builds/build-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/Test_autogen.dir
